@@ -1,0 +1,33 @@
+#+TITLE: ScrnRecorder
+#+HTML: <a href="https://github.com/abdvswmdr/ScrnRecorder/releases"><img alt="Last release" src="https://img.shields.io/github/v/tag/abdvswmdr/ScrnRecorder?label=release"></a> &nbsp; <a href="https://github.com/abdvswmdr/ScrnRecorder/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a> &nbsp; <a href="https://github.com/abdvswmdr/ScrnRecorder/commits"><img alt="Commits since last release" src="https://img.shields.io/github/commits-since/abdvswmdr/ScrnRecorder/latest"></a> &nbsp; <a href="https://github.com/abdvswmdr/ScrnRecorder"><img alt="Last commit" src="https://img.shields.io/github/last-commit/abdvswmdr/ScrnRecorder"></a><br>
+
+#+TITLE: ScrnRecorder
+
+ScrnRecorder is a native Qt C++ desktop GUI screen recording application for Linux that ports existing Bash scripts logic (ffmpeg
+x11grab).    
+
+#+attr_html: :width 1030 :height 826 :align center :alt ScrnRecorder in Action
+[[file:scrnrecorder.gif]]
+
+** Contents
+ * [[#architecture][Architecture]]
+ * [[#installation][Installation]]
+ * [[#configuration][Configuration]]
+ * [[#troubleshooting][Troubleshooting]]
+ * [[#completed][Completed]]
+ * [[#Contributing][Contributing]] 
+ * [[#license][License]] 
+
+** Installation
+
+*** Prerequisites
+
+- Linux (X11).
+- [[https://www.qt.io/product/qt6][Qt6 (QtCore, QtGui, QtWidgets)]]
+- CMake 3.20+
+- C++17 (backend)   
+- PulseAudio/PipeWire 
+- FFmpeg C API (libavcodec, libavformat, libavutil, libswscale, libavdevice).
+- GTest for TDD.
+
+*** 
